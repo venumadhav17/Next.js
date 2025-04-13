@@ -30,3 +30,6 @@ function LabelledInput({ label, placeholder, type }: labelledInputType) {
 }
 
 // w-fit for button takes as much as width as needed.
+// items-center for centering items.
+// min-h-screen ensures the div takes full height of the screen
+// If the parent has no height, nothing will center visually. (flex-col)
